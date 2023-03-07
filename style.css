@@ -1,0 +1,73 @@
+.bgimage {
+    height:100vh;
+    background: url('Image1.jpg');
+    background-color: grey;
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000 ;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #00cc99;
+}
+.servicesText:hover {
+    border: 1px solid #00cc99;
+}
+/* display background color black on navbar scroll */
+.navbarScroll.navbar {
+    background-color: white;
+}
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover {
+    color: #e3f988;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #76ff7a;
+    text-align: center;
+}
+/* spacing on all sections */
+#Luis, #home, #about, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
